@@ -5,6 +5,8 @@ html {
   font-size: 16px;
 }
 
+
+
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
@@ -46,8 +48,14 @@ header {
 header .content {
   display: flex;
   align-items: center;
-  padding: 1.875rem;
+  padding: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: "Roboto" 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #4A4A4A
 }
+
+
 
 header .logo {
   flex: 1;
